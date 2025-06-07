@@ -1,0 +1,60 @@
+# laribera.mates
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>laribera.mates</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: sans-serif; margin:0; padding:0; background:#f9f9f9; }
+    header { background:#2e2e2e; color:#fff; padding:20px; text-align:center; }
+    header a { color:#1da1f2; text-decoration:none; }
+    section { padding:30px; max-width:1000px; margin:auto; display:grid; gap:20px; grid-template-columns:repeat(auto-fill, minmax(280px,1fr)); }
+    .product { background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 1px 5px rgba(0,0,0,0.1); display:flex; flex-direction:column; }
+    .product img { width:100%; height:auto; }
+    .info { padding:15px; flex:1; display:flex; flex-direction:column; }
+    .info h3 { margin:0 0 10px; }
+    .info p.price { font-weight:bold; margin:10px 0 0; }
+    .btn { background:#009ee3; color:#fff; border:none; padding:10px; border-radius:4px; cursor:pointer; text-decoration:none; text-align:center; }
+    footer { background:#2e2e2e; color:#fff; text-align:center; padding:15px; margin-top:30px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>laribera.mates</h1>
+  <p>Hechos con amor y tradición. ¡Seguí nuestras novedades!</p>
+  <p><a href="https://www.instagram.com/tu_usuario_instagram" target="_blank">@laribera.mates</a></p>
+</header>
+
+<section>
+  <!-- Repetí este bloque 6 veces modificando imagen, nombre, descripción, precio y link -->
+  <div class="product">
+    <img src="https://via.placeholder.com/400x300?text=Mate+1" alt="Mate 1">
+    <div class="info">
+      <h3>Mate Clásico de Algarrobo</h3>
+      <p>Mate tallado a mano, con bombilla inoxidable.</p>
+      <p class="price">$5.000 ARS</p>
+      <a class="btn" href="https://www.mercadopago.com/checkout/v1/redirect?pref_id=TU_PREF_ID_1" target="_blank">Comprar por MercadoPago</a>
+    </div>
+  </div>
+  <!-- Bloque 2 -->
+  <div class="product">
+    <img src="https://via.placeholder.com/400x300?text=Mate+2" alt="Mate 2">
+    <div class="info">
+      <h3>Mate Tripierre Moderno</h3>
+      <p>Acero inoxidable cepillado, apto para regalo.</p>
+      <p class="price">$4.800 ARS</p>
+      <a class="btn" href="https://www.mercadopago.com/checkout/v1/redirect?pref_id=TU_PREF_ID_2" target="_blank">Comprar por MercadoPago</a>
+    </div>
+  </div>
+  <!-- Bloques 3 a 6 iguales -->
+  <!-- ... -->
+</section>
+
+<footer>
+  <p>© 2025 laribera.mates — Contacto por Instagram</p>
+</footer>
+
+</body>
+</html>
